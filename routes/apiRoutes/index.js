@@ -26,8 +26,8 @@ router.delete("/notes/:id", (req, res) => {
   let index = notes.findIndex(match);
   // remove note with that index from data array
   // rewrite edited json data to json file
-  let removed = deleteNote(index, notes);
-  res.json(notes);
+  let newNotes = deleteNote(index, notes);
+  res.json(newNotes);
 });
 
 module.exports = router;
