@@ -14,9 +14,11 @@
 
   ## Installation
   You can clone the code from the GitHub repository linked below.
+  You can visit the deployed application [here](https://limitless-badlands-19806.herokuapp.com/)
 
   ## Usage
   You can use this application to stay organized and to keep track of tasks by creating and managing notes.
+  You can visit the deployed application at [https://limitless-badlands-19806.herokuapp.com/](https://limitless-badlands-19806.herokuapp.com/).
 
   ## License
   
