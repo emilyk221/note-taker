@@ -5,6 +5,9 @@
   ## Description
   This application allows the user to enter and save notes in order to organize their thoughts and keep track of tasks that need to be completed. When the note-taking application loads, the notes that are saved on the server are shown on the lefthand side of the screen. Once the note title and text is entered, a save icon is shown so the user can click the "save" button and send a post request to the server for that note to have a unique id assigned to it and to be added to the notes data stored on the server, as well as displayed in the lefthand column. The text of the notes can be displayed on the righthand side of the screen when the title of the note is clicked from the list in the lefthand column. Editable fields for title and text can be shown on the righthand side when the "add a new note" button at the top is clicked. Notes can be deleted from the displayed list and the server data by clicking the "delete" button next to the title of the note on the lefthand side. This application uses GET, POST, and DELETE requests to a server created using Express.js and is deployed with Heroku.
 
+  ## Screenshot
+  ![Screenshot](public/assets/images/Screenshot.png)
+
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
